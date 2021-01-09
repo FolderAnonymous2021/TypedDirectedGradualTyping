@@ -35,7 +35,7 @@ which is included in the directory.
 
 ### Build and Compile the Proofs
 
-1. Enter  `calculus/coq` , `calculus_label/coq` or `variant_label/coq` directory.
+1. Enter  `calculus/coq` , `calculus_label/coq` `variant/coq` or `variant_label/coq` directory.
 
 2. Type `make` in the terminal to build and compile the proofs.
 
