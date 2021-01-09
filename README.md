@@ -1,4 +1,4 @@
-# Coq Formalization Artifact
+# Coq Formalization
 Type-Directed Operational Semantics for Gradual Typing
 
 ## Building Instructions
