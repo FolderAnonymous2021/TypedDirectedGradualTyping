@@ -35,10 +35,26 @@ which is included in the directory.
 
 ### Build and Compile the Proofs
 
-1. Enter  `calculus/coq` , `calculus_label/coq` `variant/coq` or `variant_label/coq` directory.
+1. Enter  `calculus/coq` or `variant/coq`  directory.
 
 2. Type `make` in the terminal to build and compile the proofs.
 
 
 ## Proof Structure
+
+- `calculus` directory contains the definition and proofs of the  calculus
+- `variant` directory contains the definition and proofs of the 
+- `syntax_ott.v` contains the locally nameless definitions of the calculi.
+- `syntaxb_ott.v` contains the locally nameless definitions of the blame calculi.
+- `rules_inf.v` and `rulesb_inf.v` contains the `lngen` generated code.
+- `Infrastructure.v` contains the type systems of the calculi and some lemmas.
+- `Infrastructure_b.v` contains the type systems of the blame calculi and some lemmas.
+- `Deterministic.v` contains the proofs of the determinism property.
+- `Typing.v` contains the proofs of some typing lemmas.
+- `Typing_b.v` contains the proofs of some blame calculus typing lemmas.
+- `ttyping.v` contains the proofs of some elaboration typing lemmas.
+- `criteria.v` contains the proofs of gradual guarantee theorem.
+- `Type_Safety.v` contains the proofs of the type preservation and progress properties.
+- `soundness.v` contains the proofs of the soundness theorem with respect to blame calculus.
+- `soundness_blame.v` contains the proofs of the soundness theorem with respect to blame calculus.
 
